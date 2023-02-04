@@ -3,9 +3,83 @@
   <head>
     <meta charset="UTF-8" />
     <title>Explore</title>
+    <link href="index.css" rel="stylesheet" />
   </head>
   <body>
-    <input type="text" placeholder="Search Tuiter">
-    <label><a href="explore-settings.html">gear</a></label>
+    <div>
+      <div class="float-left">
+        <form>
+          <input
+            class="bg-color-darkgray fg-color-white rounded-corners-all-around searchbar"
+            type="text"
+            placeholder="Search Tuiter"
+          />
+        </form>
+      </div>
+      <a href="explore-settings.html" class="float-right gear-icon"
+        ><span>&#9881;</span></a
+      >
+      <div class="float-done"></div>
+    </div>
+    <div>
+      <ul class="no-bullets">
+        <li class="float-left list-item highlight"><a>For you</a></li>
+        <li class="float-left list-item other-link"><a>Trending</a></li>
+        <li class="float-left list-item other-link"><a>COVID-19</a></li>
+        <li class="float-left list-item other-link"><a>News</a></li>
+        <li class="float-left list-item other-link"><a>Sports</a></li>
+        <li class="float-left list-item other-link"><a>Entertainment</a></li>
+        <div class="float-done"></div>
+      </ul>
+    </div>
+    <div>
+      <ul class="no-bullets">
+        <li>
+          <a class="topic">Trending in Science</a><br />
+          <a class="post-name">Starship</a>
+          55.5k Tuits
+        </li>
+        <div class="float-done"></div>
+        <li>
+          <a class="topic">Sports - Trending</a><br />
+          <a class="post-name">Joe Rogan</a>
+          5.21B Tuits
+        </li>
+        <div class="float-done"></div>
+        <li>
+          <a class="author float-left">The New York Times</a><a class="date"> - Yesterday</a><br />
+          <a class="post-name">CNN's Cuomo conundrum: A star anchor with a brother in trouble</a>
+          <img
+            src="https://pbs.twimg.com/profile_images/925092227667304448/fAY1HUu3_400x400.jpg"
+            class="image float-right"
+          />
+        </li>
+        <div class="float-done"></div>
+        <li>
+          <a class="topic">COVID-19 - Live</a><br />
+          <a class="post-name">COVID-19: News and updates for Massachusetts</a>
+          <img
+            src="https://pbs.twimg.com/profile_images/2246059310/20090727-massachusetts_map_reasonably_small.gif"
+            class="image float-right"
+          />
+        </li>
+        <div class="float-done"></div>
+        <li>
+          <a class="author">Bloombreg Opinion</a><a class="date"> - Yesterday</a><br />
+          <a class="post-name">Thinking about getting a booster? Read this first.</a>
+          <img
+            src="https://pbs.twimg.com/profile_images/737934996732846080/bn3w68Ok_400x400.jpg"
+            class="image float-right"
+          />
+        </li>
+        <div class="float-done"></div>
+        <li>
+          <a class="topic">Trending in United States</a><br />
+          <a class="post-name">Wonder Bread</a>
+          1,259 Tuits
+        </li>
+        <div class="float-done"></div>
+      </ul>
+    </div>
   </body>
 </html>
