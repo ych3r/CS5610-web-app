@@ -57,7 +57,8 @@
         <div class="col-6">
           <!-- search bar -->
           <div class="row">
-            <div class="col-10">
+            <div class="col-10 form-group">
+              <span class="fa-solid fa-magnifying-glass"></span>
               <input
                 type="search"
                 placeholder="Search Tuiter"
@@ -85,28 +86,55 @@
           <!-- cards -->
           <div class="card">
             <img src="images/Starship-Mk1-Day.webp" class="card-img-top" />
-            <div class="card-body">
-              <h6 class="card-title">ReactJS</h6>
-              <p class="card-text">
-                React.js is a component based front end library that makes it
-                very easy to build Single Page Applications or SPAs
-              </p>
+            <div class="card-body d-flex row">
+              <div class="col-9">
+                <div>Web Development</div>
+                <h6 class="card-title">
+                  ReactJS <i class="fa-solid fa-circle-check"></i>
+                  <i> - 2h</i>
+                </h6>
+                <p class="card-text">
+                  React.js is a component based front end library that makes it
+                  very easy to build Single Page Applications or SPAs
+                </p>
+              </div>
+              <img src="images/react.png" class="img-fluid col-3" />
             </div>
             <hr />
-            <div class="card-body">
-              <h6 class="card-title">JavaScript</h6>
-              <p class="card-text">
-                JavaScript is programming language that can run on browsers as
-                well asdesktops
-              </p>
+            <div class="card-body d-flex row">
+              <div class="col-9">
+                <h6 class="card-title">
+                  JavaScript <i class="fa-solid fa-circle-check"></i>
+                  <i> - 2h</i>
+                </h6>
+                <p class="card-text">
+                  JavaScript is programming language that can run on browsers as
+                  well asdesktops
+                </p>
+                <div>123K Tuits</div>
+              </div>
+              <img src="images/js.png" class="img-fluid col-3" />
             </div>
             <hr />
-            <div class="card-body">
-              <h6 class="card-title">jQuery</h6>
+            <div class="card-body d-flex row">
+              <div class="col-9">
+                <div>Web Development</div>
+                <h6 class="card-title">jQuery</h6>
+                <div>123K Tuits</div>
+              </div>
+              <img src="images/jquery.png" class="img-fluid col-3" />
             </div>
             <hr />
-            <div class="card-body">
-              <h6 class="card-title">NodeJS</h6>
+            <div class="card-body d-flex row">
+              <div class="col-9">
+                <div>Web Development</div>
+                <h6 class="card-title">
+                  NodeJS <i class="fa-solid fa-circle-check"></i>
+                  <i> - 2h</i>
+                </h6>
+                <div>123K Tuits</div>
+              </div>
+              <img src="images/node.png" class="img-fluid col-3" />
             </div>
           </div>
         </div>
@@ -115,11 +143,66 @@
           <!-- list group -->
           <ul class="list-group">
             <li class="list-group-item">Who to follow</li>
-            <li class="list-group-item">Java</li>
-            <li class="list-group-item">Relativity Space</li>
-            <li class="list-group-item">Virgin Galactic</li>
-            <li class="list-group-item">NASA</li>
-            <li class="list-group-item">Tesla</li>
+            <li class="list-group-item">
+              <div class="d-flex row">
+                <img src="images/java.png" class="image-fluid col-2" />
+                <div class="col-7">
+                  Java <i class="fa-solid fa-circle-check"></i><br />@Java
+                </div>
+                <button class="btn btn-primary rounded-pill col-3">
+                  Follow
+                </button>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="d-flex row">
+                <img
+                  src="images/relativity_space.jpeg"
+                  class="image-fluid col-2"
+                />
+                <div class="col-7">
+                  Relativity Space <i class="fa-solid fa-circle-check"></i
+                  ><br />@relativityspace
+                </div>
+                <button class="btn btn-primary rounded-pill col-3">
+                  Follow
+                </button>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="d-flex row">
+                <img src="images/virgin.jpeg" class="image-fluid col-2" />
+                <div class="col-7">
+                  Virgin Galactic <i class="fa-solid fa-circle-check"></i
+                  ><br />@virgingalactic
+                </div>
+                <button class="btn btn-primary rounded-pill col-3">
+                  Follow
+                </button>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="d-flex row">
+                <img src="images/nasa.jpeg" class="image-fluid col-2" />
+                <div class="col-7">
+                  NASA <i class="fa-solid fa-circle-check"></i><br />@NASA
+                </div>
+                <button class="btn btn-primary rounded-pill col-3">
+                  Follow
+                </button>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="d-flex row">
+                <img src="images/tesla.png" class="image-fluid col-2" />
+                <div class="col-7">
+                  Tesla <i class="fa-solid fa-circle-check"></i><br />@Tesla
+                </div>
+                <button class="btn btn-primary rounded-pill col-3">
+                  Follow
+                </button>
+              </div>
+            </li>
           </ul>
         </div>
       </div>
