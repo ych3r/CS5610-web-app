@@ -19,7 +19,7 @@
     />
   </head>
   <body>
-    <div class="container top-space">
+    <div class="container ttr-top-space">
       <div class="row">
         <!-- # left part -->
         <div class="col-2">
@@ -27,136 +27,224 @@
           <ul class="list-group">
             <li class="list-group-item"><i class="fab fa-twitter"></i></li>
             <li class="list-group-item">
-              <i class="fa-solid fa-house-chimney"></i> Home
+              <div class="d-inline-block">
+                <i class="fa-solid fa-house-chimney"></i>
+              </div>
+              <div class="d-inline-block">
+                <a
+                  href="#"
+                  class="d-none d-xl-block text-reset ttr-no-underline"
+                  >Home</a
+                >
+              </div>
             </li>
             <li class="list-group-item active">
-              <i class="fa-solid fa-hashtag"></i> Explore
+              <div class="d-inline-block">
+                <i class="fa-solid fa-hashtag"></i>
+              </div>
+              <div class="d-inline-block">
+                <a
+                  href="#"
+                  class="d-none d-xl-block text-reset ttr-no-underline"
+                  >Explore</a
+                >
+              </div>
             </li>
             <li class="list-group-item">
-              <i class="fa-solid fa-bell"></i> Notifications
+              <div class="d-inline-block">
+                <i class="fa-solid fa-bell"></i>
+              </div>
+              <div class="d-inline-block">
+                <a
+                  href="#"
+                  class="d-none d-xl-block text-reset ttr-no-underline"
+                  >Notifications</a
+                >
+              </div>
             </li>
             <li class="list-group-item">
-              <i class="fa-solid fa-envelope"></i> Messages
+              <div class="d-inline-block">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div class="d-inline-block">
+                <a
+                  href="#"
+                  class="d-none d-xl-block text-reset ttr-no-underline"
+                  >Messages</a
+                >
+              </div>
             </li>
             <li class="list-group-item">
-              <i class="fa-solid fa-bookmark"></i> Bookmarks
+              <div class="d-inline-block">
+                <i class="fa-solid fa-bookmark"></i>
+              </div>
+              <div class="d-inline-block">
+                <a
+                  href="#"
+                  class="d-none d-xl-block text-reset ttr-no-underline"
+                  >Bookmarks</a
+                >
+              </div>
             </li>
             <li class="list-group-item">
-              <i class="fa-solid fa-list"></i> Lists
+              <div class="d-inline-block">
+                <i class="fa-solid fa-list"></i>
+              </div>
+              <div class="d-inline-block">
+                <a
+                  href="#"
+                  class="d-none d-xl-block text-reset ttr-no-underline"
+                  >Lists</a
+                >
+              </div>
             </li>
             <li class="list-group-item">
-              <i class="fa-solid fa-user"></i> Profile
+              <div class="d-inline-block">
+                <i class="fa-solid fa-user"></i>
+              </div>
+              <div class="d-inline-block">
+                <a
+                  href="#"
+                  class="d-none d-xl-block text-reset ttr-no-underline"
+                  >Profile</a
+                >
+              </div>
             </li>
             <li class="list-group-item">
-              <i class="fa-solid fa-ellipsis"></i> More
+              <div class="d-inline-block">
+                <i class="fa-solid fa-ellipsis"></i>
+              </div>
+              <div class="d-inline-block">
+                <a
+                  href="#"
+                  class="d-none d-xl-block text-reset ttr-no-underline"
+                  >More</a
+                >
+              </div>
             </li>
-            <button class="btn btn-primary rounded-pill top-space">Tuit</button>
+            <button class="btn btn-primary rounded-pill ttr-top-space">
+              Tuit
+            </button>
           </ul>
         </div>
         <!-- # center part -->
-        <div class="col-6">
+        <div class="col-10 col-sd-10 col-md-10 col-lg-6 col-xl-6 col-xxl-6">
           <!-- search bar -->
           <div class="row">
-            <div class="col-10 form-group">
-              <span class="fa-solid fa-magnifying-glass"></span>
-              <input
-                type="search"
-                placeholder="Search Tuiter"
-                class="form-control"
-              />
+            <div class="col-11">
+              <div class="ttr-searchbar">
+                <i class="fa-solid fa-search"></i>
+                <input placeholder="Search Tuiter" />
+              </div>
             </div>
-            <div class="col-2">
+            <div class="col-1">
               <a href="explore-setting.html"
-                ><i class="fa-solid fa-gear"></i
+                ><i class="fa-solid fa-gear fa-2x"></i
               ></a>
             </div>
           </div>
           <!-- tabs -->
-          <ul class="nav nav-tabs top-space">
+          <ul class="nav nav-tabs ttr-top-space">
             <li class="nav-item">
-              <a class="nav-link active" href="#">For you</a>
+              <a class="nav-link active" href="#"
+                ><span class="ttr-color-gray">For you</span></a
+              >
             </li>
             <li class="nav-item"><a class="nav-link" href="#">Trending</a></li>
             <li class="nav-item"><a class="nav-link" href="#">News</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Sports</a></li>
-            <li class="nav-item">
+            <li class="nav-item d-none d-md-block">
               <a class="nav-link" href="#">Entertainment</a>
             </li>
           </ul>
           <!-- cards -->
-          <div class="card top-space">
-            <img src="images/Starship-Mk1-Day.webp" class="card-img-top" />
+          <div class="card">
+            <div class="ttr-image">
+              <img src="images/Starship-Mk1-Day.webp" class="card-img-top" />
+              <span class="ttr-image-overlay">SpaceX's Starship</span>
+            </div>
+
             <div class="card-body">
               <div class="d-flex row">
                 <div class="col-9">
-                  <div>Web Development</div>
+                  <span class="ttr-color-gray">Web Development</span>
                   <h6 class="card-title">
                     ReactJS <i class="fa-solid fa-circle-check"></i>
-                    <i> - 2h</i>
+                    <span class="ttr-color-gray"> - 2h</span>
                   </h6>
                   <p class="card-text">
                     React.js is a component based front end library that makes
                     it very easy to build Single Page Applications or SPAs
                   </p>
                 </div>
-                <img src="images/react.png" class="img-fluid col-3" />
+                <div class="col-3">
+                  <img src="images/react.png" class="img-fluid rounded" />
+                </div>
               </div>
             </div>
-            <hr />
+            <hr class="ttr-hr" />
             <div class="card-body">
               <div class="d-flex row">
                 <div class="col-9">
                   <h6 class="card-title">
                     JavaScript <i class="fa-solid fa-circle-check"></i>
-                    <i> - 2h</i>
+                    <span class="ttr-color-gray"> - 2h</span>
                   </h6>
                   <p class="card-text">
                     JavaScript is programming language that can run on browsers
                     as well asdesktops
                   </p>
-                  <div>123K Tuits</div>
+                  <span class="ttr-color-gray">123K Tuits</span>
                 </div>
-                <img src="images/js.png" class="img-fluid col-3" />
+                <div class="col-3">
+                  <img src="images/js.png" class="img-fluid rounded" />
+                </div>
               </div>
             </div>
-            <hr />
+            <hr class="ttr-hr" />
             <div class="card-body">
               <div class="d-flex row">
                 <div class="col-9">
-                  <div>Web Development</div>
+                  <span class="ttr-color-gray">Web Development</span>
                   <h6 class="card-title">jQuery</h6>
-                  <div>123K Tuits</div>
+                  <span class="ttr-color-gray">123K Tuits</span>
                 </div>
-                <img src="images/jquery.png" class="img-fluid col-3" />
+                <div class="col-3">
+                  <img src="images/jquery.png" class="img-fluid rounded" />
+                </div>
               </div>
             </div>
-            <hr />
+            <hr class="ttr-hr" />
             <div class="card-body">
               <div class="d-flex row">
                 <div class="col-9">
                   <div>Web Development</div>
                   <h6 class="card-title">
                     NodeJS <i class="fa-solid fa-circle-check"></i>
-                    <i> - 2h</i>
+                    <span class="ttr-color-gray"> - 2h</span>
                   </h6>
-                  <div>123K Tuits</div>
+                  <span class="ttr-color-gray">123K Tuits</span>
                 </div>
-                <img src="images/node.png" class="img-fluid col-3" />
+                <div class="col-3">
+                  <img src="images/node.png" class="img-fluid rounded" />
+                </div>
               </div>
             </div>
           </div>
         </div>
         <!-- # right part -->
-        <div class="col-4">
+        <div class="col-4 d-none d-lg-block">
           <!-- list group -->
           <ul class="list-group">
             <li class="list-group-item">Who to follow</li>
             <li class="list-group-item">
               <div class="d-flex row">
-                <img
-                  src="images/java.png"
-                  class="image-fluid col-2 rounded-circle"
-                />
+                <div class="col-2">
+                  <img
+                    src="images/java.png"
+                    class="image-fluid rounded-circle ttr-sidebar-image"
+                  />
+                </div>
                 <div class="col-7">
                   Java <i class="fa-solid fa-circle-check"></i><br />@Java
                 </div>
@@ -167,10 +255,12 @@
             </li>
             <li class="list-group-item">
               <div class="d-flex row">
-                <img
-                  src="images/relativity_space.jpeg"
-                  class="image-fluid col-2 rounded-circle"
-                />
+                <div class="col-2">
+                  <img
+                    src="images/relativity_space.jpeg"
+                    class="image-fluid rounded-circle ttr-sidebar-image"
+                  />
+                </div>
                 <div class="col-7">
                   Relativity Space <i class="fa-solid fa-circle-check"></i
                   ><br />@relativityspace
@@ -182,10 +272,12 @@
             </li>
             <li class="list-group-item">
               <div class="d-flex row">
-                <img
-                  src="images/virgin.jpeg"
-                  class="image-fluid col-2 rounded-circle"
-                />
+                <div class="col-2">
+                  <img
+                    src="images/virgin.jpeg"
+                    class="image-fluid rounded-circle ttr-sidebar-image"
+                  />
+                </div>
                 <div class="col-7">
                   Virgin Galactic <i class="fa-solid fa-circle-check"></i
                   ><br />@virgingalactic
@@ -197,10 +289,12 @@
             </li>
             <li class="list-group-item">
               <div class="d-flex row">
-                <img
-                  src="images/nasa.jpeg"
-                  class="image-fluid col-2 rounded-circle"
-                />
+                <div class="col-2">
+                  <img
+                    src="images/nasa.jpeg"
+                    class="image-fluid rounded-circle ttr-sidebar-image"
+                  />
+                </div>
                 <div class="col-7">
                   NASA <i class="fa-solid fa-circle-check"></i><br />@NASA
                 </div>
@@ -211,10 +305,12 @@
             </li>
             <li class="list-group-item">
               <div class="d-flex row">
-                <img
-                  src="images/tesla.png"
-                  class="image-fluid col-2 rounded-circle"
-                />
+                <div class="col-2">
+                  <img
+                    src="images/tesla.png"
+                    class="image-fluid rounded-circle ttr-sidebar-image"
+                  />
+                </div>
                 <div class="col-7">
                   Tesla <i class="fa-solid fa-circle-check"></i><br />@Tesla
                 </div>
