@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Explore Challenge</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link href="challenge.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container ttr-top-space">
+      <div class="row">
+        <!-- # left part -->
+        <div class="col-2">
+          <!-- list group -->
+          <ul class="list-group">
+            <li class="list-group-item ttr-no-border">
+              <i class="fab fa-twitter fa-2x ttr-blue"></i>
+            </li>
+            <li class="list-group-item ttr-no-border">
+              <div class="row">
+                <div class="d-inline-block col-2">
+                  <i class="fa-solid fa-house-chimney"></i>
+                </div>
+                <div class="d-inline-block col-10">
+                  <a
+                    href="#"
+                    class="d-none d-xl-block text-reset ttr-no-underline"
+                    >Home</a
+                  >
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item ttr-no-border">
+              <div class="row">
+                <div class="d-inline-block col-2">
+                  <i class="fa-solid fa-hashtag"></i>
+                </div>
+                <div class="d-inline-block col-10">
+                  <a
+                    href="#"
+                    class="d-none d-xl-block text-reset ttr-no-underline"
+                    ><b>Explore</b></a
+                  >
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item ttr-no-border">
+              <div class="row">
+                <div class="d-inline-block col-2">
+                  <i class="fa-solid fa-bell"></i>
+                </div>
+                <div class="d-inline-block col-10">
+                  <a
+                    href="#"
+                    class="d-none d-xl-block text-reset ttr-no-underline"
+                    >Notifications</a
+                  >
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item ttr-no-border">
+              <div class="row">
+                <div class="d-inline-block col-2">
+                  <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="d-inline-block col-10">
+                  <a
+                    href="#"
+                    class="d-none d-xl-block text-reset ttr-no-underline"
+                    >Messages</a
+                  >
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item ttr-no-border">
+              <div class="row">
+                <div class="d-inline-block col-2">
+                  <i class="fa-solid fa-bookmark"></i>
+                </div>
+                <div class="d-inline-block col-10">
+                  <a
+                    href="#"
+                    class="d-none d-xl-block text-reset ttr-no-underline"
+                    >Bookmarks</a
+                  >
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item ttr-no-border">
+              <div class="row">
+                <div class="d-inline-block col-2">
+                  <i class="fa-solid fa-list"></i>
+                </div>
+                <div class="d-inline-block col-10">
+                  <a
+                    href="#"
+                    class="d-none d-xl-block text-reset ttr-no-underline"
+                    >Lists</a
+                  >
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item ttr-no-border">
+              <div class="row">
+                <div class="d-inline-block col-2">
+                  <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="d-inline-block col-10">
+                  <a
+                    href="#"
+                    class="d-none d-xl-block text-reset ttr-no-underline"
+                    >Profile</a
+                  >
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item ttr-no-border">
+              <div class="row">
+                <div class="d-inline-block col-2">
+                  <i class="fa-solid fa-ellipsis"></i>
+                </div>
+                <div class="d-inline-block col-10">
+                  <a
+                    href="#"
+                    class="d-none d-xl-block text-reset ttr-no-underline"
+                    >More</a
+                  >
+                </div>
+              </div>
+            </li>
+            <button class="btn rounded-pill ttr-top-space ttr-button">
+              Tuit
+            </button>
+          </ul>
+        </div>
+        <!-- # center part -->
+        <div class="col-10 col-sd-10 col-md-10 col-lg-6 col-xl-6 col-xxl-6">
+          <!-- search bar -->
+          <div class="row">
+            <div class="col-11">
+              <div class="ttr-searchbar">
+                <i class="fa-solid fa-search"></i>
+                <input placeholder="Search Tuiter" />
+              </div>
+            </div>
+            <div class="col-1">
+              <a href="explore-setting.html"
+                ><i class="fa fa-gear ttr-black ttr-gear-pos"></i
+              ></a>
+            </div>
+          </div>
+          <!-- pills -->
+          <ul class="nav nav-pills ttr-top-space">
+            <li class="nav-item">
+              <a class="nav-link active" href="#"
+                ><span class="ttr-black"><b>For you</b></span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><span class="ttr-darkgray">Trending</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><span class="ttr-darkgray">News</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><span class="ttr-darkgray">Sports</span></a
+              >
+            </li>
+            <li class="nav-item d-none d-md-block">
+              <a class="nav-link" href="#"
+                ><span class="ttr-darkgray">Entertainment</span></a
+              >
+            </li>
+          </ul>
+          <!-- cards -->
+          <div class="card ttr-top-space ttr-border">
+            <div class="ttr-image">
+              <img src="images/ao.jpeg" class="card-img-top" />
+              <span class="ttr-image-overlay">Australian Open 2023</span>
+            </div>
+
+            <div class="card-body">
+              <div class="d-flex row">
+                <div class="col-11">
+                  <span class="ttr-darkgray">Politics - Trending</span>
+                  <h6 class="card-title"><b>Seizures</b></h6>
+
+                  <span class="ttr-darkgray">4,953 Tuits</span>
+                </div>
+                <div class="col-1">
+                  <i class="fa-solid fa-ellipsis ttr-darkgray"></i>
+                </div>
+              </div>
+            </div>
+            <hr class="ttr-hr" />
+
+            <div class="card-body">
+              <div class="d-flex row">
+                <div class="col-11">
+                  <h6 class="card-title">
+                    <b>#InfinityPool</b>
+                  </h6>
+                  <span class="ttr-darkgray"
+                    >See the electrifying thriller infinity Pool in theaters -
+                    if you dare</span
+                  ><br />
+                  <span class="ttr-darkgray">Promoted by NEON</span>
+                </div>
+                <div class="col-1">
+                  <i class="fa-solid fa-ellipsis ttr-darkgray"></i>
+                </div>
+              </div>
+            </div>
+            <hr class="ttr-hr" />
+
+            <div class="card-body">
+              <div class="d-flex row">
+                <div class="col-11">
+                  <span class="ttr-darkgray">Sports - Trending</span>
+                  <h6 class="card-title"><b>RIP Bean</b></h6>
+                  <span class="ttr-darkgray">18K Tuits</span>
+                </div>
+                <div class="col-1">
+                  <i class="fa-solid fa-ellipsis ttr-darkgray"></i>
+                </div>
+              </div>
+            </div>
+            <hr class="ttr-hr" />
+
+            <div class="card-body">
+              <div class="d-flex row">
+                <div class="col-11">
+                  <span class="ttr-darkgray">Politics - Trending</span>
+                  <h6 class="card-title">
+                    <b>Durham</b>
+                  </h6>
+                  <span class="ttr-darkgray"
+                    >Trending with <span class="ttr-blue">Barr</span>,
+                    <span class="ttr-blue">Barr</span></span
+                  >
+                </div>
+                <div class="col-1">
+                  <i class="fa-solid fa-ellipsis ttr-darkgray"></i>
+                </div>
+              </div>
+            </div>
+            <hr class="ttr-hr" />
+
+            <div class="card-body">
+              <div class="d-flex row">
+                <div class="col-11">
+                  <span class="ttr-darkgray"
+                    >Trending in Business and finance</span
+                  >
+                  <h6 class="card-title">
+                    <b>#DirectedEvolution</b>
+                  </h6>
+                  <span class="ttr-darkgray">172K Tuits</span>
+                </div>
+                <div class="col-1">
+                  <i class="fa-solid fa-ellipsis ttr-darkgray"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- # right part -->
+        <div class="col-4 d-none d-lg-block">
+          <!-- list group -->
+          <ul class="list-group">
+            <li class="list-group-item ttr-sidebar"><b>Who to follow</b></li>
+            <li class="list-group-item ttr-sidebar">
+              <div class="d-flex row">
+                <div class="col-2">
+                  <img
+                    src="images/nu.jpeg"
+                    class="image-fluid rounded-circle ttr-sidebar-image"
+                  />
+                </div>
+                <div class="col-7">
+                  <b>Northeastern U.</b> <i class="fa-solid fa-circle-check ttr-blue"></i><br /><span class="ttr-darkgray">@Northeastern</span>
+                </div>
+                <button class="btn btn-primary rounded-pill col-3 ttr-follow-button">
+                  Follow
+                </button>
+              </div>
+            </li>
+            <li class="list-group-item ttr-sidebar">
+                <div class="d-flex row">
+                    <div class="col-2">
+                      <img
+                        src="images/lyc.jpeg"
+                        class="image-fluid rounded-circle ttr-sidebar-image"
+                      />
+                    </div>
+                    <div class="col-7">
+                      <b>Yuchen Liu</b> <i class="fa-solid fa-circle-check ttr-blue"></i><br /><span class="ttr-darkgray">@_liuyuchen</span>
+                    </div>
+                    <button class="btn btn-primary rounded-pill col-3 ttr-follow-button">
+                      Follow
+                    </button>
+                  </div>
+            </li>
+            <li class="list-group-item ttr-sidebar">
+                <div class="d-flex row">
+                    <div class="col-2">
+                      <img
+                        src="images/em.jpeg"
+                        class="image-fluid rounded-circle ttr-sidebar-image"
+                      />
+                    </div>
+                    <div class="col-7">
+                      <b>Elon Musk</b> <i class="fa-solid fa-circle-check ttr-blue"></i><br /><span class="ttr-darkgray">@elonmusk</span>
+                    </div>
+                    <button class="btn btn-primary rounded-pill col-3 ttr-follow-button">
+                      Follow
+                    </button>
+                  </div>
+            </li>
+            <li class="list-group-item ttr-sidebar">
+                <a href="#" class="text-reset ttr-no-underline"><span class="ttr-blue">Show more</span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
