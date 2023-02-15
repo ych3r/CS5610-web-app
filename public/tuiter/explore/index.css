@@ -1,56 +1,119 @@
+/* general */
+body {
+  background-color: #14171a;
+}
+
 .ttr-top-space {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .ttr-no-underline {
-    text-decoration: none;
-}
-
-.ttr-color-gray {
-    color: gray;
+  text-decoration: none;
 }
 
 .ttr-hr {
-    margin: 0;
+  margin: 0;
 }
-  
+
+/* color */
+
+.ttr-blue {
+  color: #1da1f2;
+}
+
+.ttr-black {
+  color: #14171a;
+}
+
+.ttr-xxlightgray {
+  color: #f5f8fa;
+}
+
+.ttr-lightgray {
+  color: #aab8c2;
+}
+
+.ttr-darkgray {
+  color: #657786;
+}
+
+.ttr-background {
+  background-color: #303030;
+}
+
+.ttr-button {
+  color: #f5f8fa;
+  background-color: #1da1f2;
+}
+
+
+.ttr-border {
+  border-color: #657786;
+}
+
+/* left sidebar*/
+
+.ttr-no-border {
+  border: none;
+}
+
+.list-group-item.active {
+  color: #f5f8fa;
+  background-color: #1da1f2;
+}
 
 /* searchbar */
 
 .ttr-searchbar {
-    position: relative;
+  position: relative;
 }
 
 .ttr-searchbar .fa-solid.fa-search {
-    position: absolute;
-    top: 9px;
-    left: 12px;
+  position: absolute;
+  top: 9px;
+  left: 12px;
 }
 
 .ttr-searchbar input {
-    padding-left: 40px;
-    height: 35px;
-    width: 100%;
-    border-radius: 20px;
-    border-color: lightgray;
+  padding-left: 40px;
+  height: 35px;
+  width: 100%;
+  border-radius: 20px;
+  border: none;
+}
+
+.ttr-gear-pos {
+  position: relative;
+  top: 3px;
+}
+
+/* center nav */
+.nav-tabs .nav-link.active {
+  background-color: #1da1f2;
+  border: none;
 }
 
 /* center picture */
 .ttr-image {
-    position: relative;
+  position: relative;
 }
 
 .ttr-image-overlay {
-    position: absolute;
-    bottom: 0px;
-    left: 5px;
-    color: white;
-    font-size: xx-large;
+  position: absolute;
+  bottom: 0px;
+  left: 5px;
+  color: white;
+  font-size: xx-large;
+}
+
+/* center post */
+.ttr-image-size {
+  width: 100px;
+  height: 100px;
 }
 
 /* right sidebar picture */
 .ttr-sidebar-image {
-    height: 48px;
-    width: 48px;
+  height: 48px;
+  width: 48px;
 }
-
