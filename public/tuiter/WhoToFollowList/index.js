@@ -10,7 +10,9 @@ const WhoToFollowList = () => {
   console.log(content);
   return (`
     <ul class="list-group">
-        <span class="list-group-item">Who to follow</span>
+        <div class="list-group-item">
+        <span>Who to follow</span>
+        </div>
         ${content}
     </ul>
   `);
