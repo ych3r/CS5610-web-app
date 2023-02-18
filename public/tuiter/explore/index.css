@@ -117,3 +117,15 @@ body {
   height: 48px;
   width: 48px;
 }
+
+.ttr-whotofollowlist-icon {
+  margin-top: 10px;
+}
+
+.ttr-whotofollowlist-label {
+  margin-top: 5px;
+}
+
+.ttr-whotofollowlist-button {
+  margin-top: 10px;
+}
