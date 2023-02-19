@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="../../vendors/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="../../vendors/bootswatch/bootstrap.min.css" rel="stylesheet" />
+    <link href="../index.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script>
+    <meta charset="UTF-8" />
+    <title>Home screen: PostList</title>
+  </head>
+  <body>
+    <div class="container" id="home-test"></div>
+    <script type="module">
+      import PostItem from "./PostItem.js";
+      console.log(PostItem);
+      $("#home-test").append(
+        PostItem({
+          avatarIcon: "../../images/elon.png",
+          userName: "Elon Musk",
+          handle: "elonmusk",
+          time: "23h",
+          post: "Come buy one!",
+          image: "../../images/tesla.png",
+          comment: "4.2K",
+          retuit: "3.5K",
+          likes: "37.5K",
+        })
+      );
+      //   import posts from "./posts.js";
+      //   for (let i = 0; i < posts.length; i++) {
+      //     console.log(posts[i]);
+      //   }
+      //   $("#home-test").append(
+      //     PostItem()
+      //   );
+      import PostList from "./index.js";
+      $("#home-test").append(
+        PostList()
+      );
+    </script>
+  </body>
+</html>
