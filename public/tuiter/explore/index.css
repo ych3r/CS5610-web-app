@@ -37,6 +37,10 @@ body {
   color: #657786;
 }
 
+.ttr-gray {
+  color: #adafae;
+}
+
 .ttr-background {
   background-color: #303030;
 }
@@ -88,10 +92,10 @@ body {
 }
 
 /* center nav */
-.nav-tabs .nav-link.active {
+/* .nav-tabs .nav-link.active {
   background-color: #1da1f2;
   border: none;
-}
+} */
 
 /* center picture */
 .ttr-image {

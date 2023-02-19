@@ -6,7 +6,7 @@ const PostSummaryItem = (post) => {
             <span>${post.topic}</span>
             <h6 class="card-title">
                 ${post.userName} <i class="fa-solid fa-circle-check"></i>
-                <span> - ${post.time}</span>
+                <span class="ttr-gray"> - ${post.time}</span>
             </h6>
             <p class="card-text ttr-xxlightgray">
                 ${post.title}
