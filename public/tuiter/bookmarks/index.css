@@ -1,0 +1,101 @@
+body {
+  background-color: #14171a;
+}
+
+.wd-div-border {
+  border-color: rgb(47, 51, 54);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.wd-float-left {
+  float: left;
+}
+
+.wd-float-right {
+  float: right;
+}
+
+.wd-float-done {
+  clear: both;
+}
+
+/* A: title */
+.wd-title {
+  color: white;
+  font-size: 20px;
+  margin-left: 16px;
+  margin-top: 12px;
+}
+
+.wd-user {
+  color: lightgray;
+  font-size: 13px;
+  margin-left: 16px;
+  margin-top: 16px;
+  margin-bottom: 12px;
+}
+
+.wd-header {
+  padding-bottom: 12px;
+}
+
+/* B: avatar */
+.wd-avatar {
+  border-radius: 100%;
+  width: 48px;
+  height: 48px;
+  margin-left: 16px;
+  margin-right: 12px;
+}
+
+/* C: user */
+.wd-color-white {
+  color: white;
+}
+
+.wd-color-lightgray {
+  color: lightgray;
+}
+
+.wd-author {
+  font-size: 15px;
+}
+
+/* D: main content */
+.wd-content {
+  max-width: 506px;
+  font-size: 15px;
+  margin-right: 16px;
+}
+
+/* E: image */
+.wd-post {
+  max-width: 506px;
+  border-radius: 3%;
+  margin-top: 12px;
+}
+
+.wd-post-image {
+  width: 504px;
+  height: 264px;
+  border-top-left-radius: 3%;
+  border-top-right-radius: 3%;
+}
+
+/* F: words */
+.wd-post-title {
+  font-size: 15px;
+}
+
+/* G: icons */
+.wd-icons {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.wd-icon {
+  margin-left: 12px;
+  margin-right: 12px;
+  color: lightgray;
+}

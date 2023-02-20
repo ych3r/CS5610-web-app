@@ -1,0 +1,56 @@
+.ttr-top-space {
+    margin-top: 10px;
+}
+
+.ttr-no-underline {
+    text-decoration: none;
+}
+
+.ttr-color-gray {
+    color: gray;
+}
+
+.ttr-hr {
+    margin: 0;
+}
+  
+
+/* searchbar */
+
+.ttr-searchbar {
+    position: relative;
+}
+
+.ttr-searchbar .fa-solid.fa-search {
+    position: absolute;
+    top: 9px;
+    left: 12px;
+}
+
+.ttr-searchbar input {
+    padding-left: 40px;
+    height: 35px;
+    width: 100%;
+    border-radius: 20px;
+    border-color: lightgray;
+}
+
+/* center picture */
+.ttr-image {
+    position: relative;
+}
+
+.ttr-image-overlay {
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+    color: white;
+    font-size: xx-large;
+}
+
+/* right sidebar picture */
+.ttr-sidebar-image {
+    height: 48px;
+    width: 48px;
+}
+
