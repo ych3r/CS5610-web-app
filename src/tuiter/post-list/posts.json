@@ -1,0 +1,26 @@
+[
+  {
+    "_id": 123,
+    "avatarIcon": "spacex.jpeg",
+    "userName": "SpaceX",
+    "handle": "SpaceX",
+    "time": "23h",
+    "content": "Dennis and Akiko Tito are the first two crew members on Starship's second commercial spaceflight around the Moon",
+    "image": "Dennis&Akiko.jpeg",
+    "comment": "595",
+    "retuit": "1,168",
+    "likes": "11.1K"
+  },
+  {
+    "_id": 234,
+    "avatarIcon": "elon.png",
+    "userName": "elonmusk",
+    "handle": "elonmusk",
+    "time": "15h",
+    "content": "how to implement retuit part tho",
+    "image": "",
+    "comment": "5,346",
+    "retuit": "1,601",
+    "likes": "19.2K"
+  }
+]
