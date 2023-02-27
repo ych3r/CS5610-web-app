@@ -14,10 +14,15 @@ const PostItem = ({
     likes: "11.1K",
   },
 }) => {
+  let retuitedBy;
+  if (post.retuitedby) {
+    retuitedBy = post.retuitedby + " Retuited";
+  }
   return (
     <li className="list-group-item">
       <div className="row">
         <div className="col-2">
+          {retuitedBy ? <i class="float-end fa-solid fa-retweet"></i> : <></>}
           <img
             width={50}
             className="rounded-5"
@@ -25,8 +30,10 @@ const PostItem = ({
           />
         </div>
         <div className="col-10">
+          <div>{retuitedBy}</div>
           <div>
-            <span className="fw-bolder">{post.userName}</span> @{post.handle} . {post.time}
+            <span className="fw-bolder">{post.userName} </span>
+            <i class="fa-solid fa-circle-check"></i> @{post.handle} . {post.time}
           </div>
           <div>{post.content}</div>
           <img

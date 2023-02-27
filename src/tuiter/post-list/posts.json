@@ -1,6 +1,7 @@
 [
   {
     "_id": 123,
+    "retuitedby": "Elon Musk",
     "avatarIcon": "spacex.jpeg",
     "userName": "SpaceX",
     "handle": "SpaceX",
@@ -13,14 +14,15 @@
   },
   {
     "_id": 234,
+    "retuitedby": "",
     "avatarIcon": "elon.png",
     "userName": "elonmusk",
     "handle": "elonmusk",
     "time": "15h",
-    "content": "how to implement retuit part tho",
-    "image": "",
-    "comment": "5,346",
-    "retuit": "1,601",
-    "likes": "19.2K"
+    "content": "",
+    "image": "Einstein.jpeg",
+    "comment": "9,336",
+    "retuit": "54.2K",
+    "likes": "561.4K"
   }
 ]
