@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="../../vendors/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="../../vendors/bootswatch/bootstrap.min.css" rel="stylesheet" />
+    <link href="../explore/index.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script>
+    <meta charset="UTF-8" />
+    <title>Explore screen: WhoToFollowList</title>
+  </head>
+  <body>
+    <div class="container" id="who-test"><h1>Test</h1></div>
+    <script type="module">
+      import WhoToFollowListItem from "./WhoToFollowListItem.js";
+    //   $("#who-test").append(
+    //     WhoToFollowListItem({
+    //       avatarIcon: "../../images/virgin.jpeg",
+    //       userName: "Virgin Galactic",
+    //       handle: "virgingalactic",
+    //     })
+    //   );
+      import who from "./who.js";
+    //   console.log(who);
+    //   for (let i = 0; i < who.length; i++) {
+    //     console.log(who[i]);
+    //     $("#who-test").append(
+    //        WhoToFollowListItem(who[i])
+    //   );
+    //   }
+      import WhoToFollowList from "./index.js";
+      $("#who-test").append(WhoToFollowList());
+
+    </script>
+  </body>
+</html>
