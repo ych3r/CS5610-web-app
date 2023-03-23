@@ -1,19 +1,6 @@
 import React from "react";
 
-const PostItem = ({
-  post = {
-    avatarIcon: "spacex.jpeg",
-    userName: "SpaceX",
-    handle: "SpaceX",
-    time: "23h",
-    content:
-      "Dennis and Akiko Tito are the first two crew members on Starship's second commercial spaceflight around the Moon",
-    image: "",
-    comment: "595",
-    retuit: "1,168",
-    likes: "11.1K",
-  },
-}) => {
+const PostItem = ({post}) => {
   let retuitedBy;
   if (post.retuitedby) {
     retuitedBy = post.retuitedby + " Retuited";

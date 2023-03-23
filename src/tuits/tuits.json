@@ -1,0 +1,32 @@
+[
+  {
+    "_id": 123,
+    "topic": "Space",
+    "avatarIcon": "spacex.jpeg",
+    "userName": "SpaceX",
+    "time": "2h",
+    "title": "100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
+    "image": "",
+    "liked": true,
+    "replies": 123,
+    "retuits": 432,
+    "likes": 2345,
+    "handle": "@spacex",
+    "tuit": "You want to wake up in the morning and think the future is going to be great - and that's what being a spacefaring civilization is all about. It's about believing in the future and thinking that the future will be better than the past. And I can't think of anything more exciting than going out there and being among the stars"
+  },
+  {
+    "_id": 234,
+    "topic": "blabla",
+    "avatarIcon": "lyc.jpeg",
+    "userName": "Yuchen",
+    "time": "3h",
+    "title": "just a title",
+    "image": "",
+    "liked": false,
+    "replies": 1,
+    "retuits": 2,
+    "likes": 3,
+    "handle": "@_liuyuchen",
+    "tuit": "For A7-3.3.1, I replicated PostSummaryList code, then I created a new reducer for home page. I modified home component. In piazza 853, Professor said that on the right side there should be \"Who to follow\", so I replaced PostSummaryList with it."
+  }
+]
