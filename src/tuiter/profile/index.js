@@ -1,11 +1,12 @@
 import React from "react";
 import { useSelector } from "react-redux";
+import { Link } from "react-router-dom";
 
 const ProfileComponent = () => {
   const profile = useSelector((state) => state.profile);
   return (
     <>
-      <div className="row">
+      <div className="row mb-3">
         <div className="col-1">
           <i class="fa-solid fa-arrow-left"></i>
         </div>
@@ -21,14 +22,16 @@ const ProfileComponent = () => {
           <img
             width={100}
             className="position-absolute ms-3 float-start rounded-circle"
-            style={{ top: "180px" }}
+            style={{ top: "200px" }}
             src={`/images/${profile.profilePicture}`}
           />
         </div>
         <div className="col">
-          <button className="rounded-pill btn btn-outline-secondary float-end mt-2 ps-3 pe-3 me-2 fw-bolder">
-            Edit profile
-          </button>
+          <Link to="/tuiter/edit-profile">
+            <button className="rounded-pill btn btn-outline-secondary float-end mt-2 ps-3 pe-3 me-2 fw-bolder">
+              Edit profile
+            </button>
+          </Link>
         </div>
       </div>
       <div>
@@ -54,12 +57,10 @@ const ProfileComponent = () => {
         </div>
         <div className="row">
           <div className="col-3">
-            <span className="fw-bolder">{profile.followingCount}</span>{" "}
-            following
+            <span className="fw-bolder">{profile.followingCount}</span> following
           </div>
           <div className="col-auto">
-            <span className="fw-bolder">{profile.followersCount}</span>{" "}
-            followers
+            <span className="fw-bolder">{profile.followersCount}</span> followers
           </div>
         </div>
       </div>
