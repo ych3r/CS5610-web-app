@@ -2,6 +2,8 @@ import React from "react";
 
 import ExploreComponent from "./explore";
 import HomeComponent from "./home";
+import ProfileComponent from "./profile";
+
 import NavigationSidebar from "./navigation-sidebar";
 import WhoToFollowList from "./who-to-follow-list";
 import PostSummaryList from "./post-summary-list";
@@ -9,13 +11,14 @@ import PostSummaryList from "./post-summary-list";
 import whoReducer from "./reducers/who-reducer";
 import tuitsReducer from "./reducers/tuits-reducer";
 import homeTuitsReducer from "./reducers/home-tuits-reducer";
+import profileReducer from "./reducers/profile-reducer";
 
 import { Routes, Route } from "react-router";
 import { configureStore } from "@reduxjs/toolkit";
 import { Provider } from "react-redux";
 
 const store = configureStore({
-  reducer: { who: whoReducer, tuits: tuitsReducer, hometuits: homeTuitsReducer },
+  reducer: { who: whoReducer, tuits: tuitsReducer, hometuits: homeTuitsReducer , profile: profileReducer},
 });
 
 function Tuiter() {
@@ -23,7 +26,7 @@ function Tuiter() {
     <Provider store={store}>
       <div className="row mt-2">
         <div className="col-2 col-md-2 col-lg-1 col-xl-2">
-          <NavigationSidebar active="home" />
+          <NavigationSidebar />
         </div>
         <div
           className="col-10 col-md-10 col-lg-7 col-xl-6"
@@ -32,6 +35,7 @@ function Tuiter() {
           <Routes>
             <Route path="home" element={<HomeComponent />} />
             <Route path="explore" element={<ExploreComponent />} />
+            <Route path="profile" element={<ProfileComponent />} />
             <Route path="*" element={<HomeComponent />} />
           </Routes>
         </div>
