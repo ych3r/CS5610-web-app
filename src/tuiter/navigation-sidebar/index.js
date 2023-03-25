@@ -15,40 +15,43 @@ const NavigationSidebar = () => {
           active === "" ? "active" : ""
         }`}
       >
-        <i class="fa-solid fa-house-chimney"></i> Home
+        <i className="fa-solid fa-house-chimney"></i> Home
       </Link>
       <Link
         to="/tuiter/explore"
         className={`list-group-item ${active === "explore" ? "active" : ""}`}
       >
-        <i class="fa-solid fa-hashtag"></i> Explore
+        <i className="fa-solid fa-hashtag"></i> Explore
       </Link>
       <Link to="/" className="list-group-item">
-        <i class="fa-solid fa-star-of-life"></i> Labs
+        <i className="fa-solid fa-star-of-life"></i> Labs
       </Link>
       <a
         className={`list-group-item ${
           active === "notifications" ? "active" : ""
         }`}
       >
-        <i class="fa-regular fa-bell"></i> Notifications
+        <i className="fa-regular fa-bell"></i> Notifications
       </a>
       <a className={`list-group-item ${active === "messages" ? "active" : ""}`}>
-        <i class="fa-regular fa-envelope"></i> Messages
+        <i className="fa-regular fa-envelope"></i> Messages
       </a>
       <a
         className={`list-group-item ${active === "bookmarks" ? "active" : ""}`}
       >
-        <i class="fa-regular fa-bookmark"></i> Bookmarks
+        <i className="fa-regular fa-bookmark"></i> Bookmarks
       </a>
       <a className={`list-group-item ${active === "lists" ? "active" : ""}`}>
-        <i class="fa-solid fa-list"></i> Lists
+        <i className="fa-solid fa-list"></i> Lists
       </a>
-      <Link to="/tuiter/profile" className={`list-group-item ${active === "profile" ? "active" : ""}`}>
-        <i class="fa-regular fa-user"></i> Profile
+      <Link
+        to="/tuiter/profile"
+        className={`list-group-item ${active === "profile" ? "active" : ""}`}
+      >
+        <i className="fa-regular fa-user"></i> Profile
       </Link>
       <a className={`list-group-item ${active === "more" ? "active" : ""}`}>
-        <i class="fa-solid fa-ellipsis"></i> More
+        <i className="fa-solid fa-ellipsis"></i> More
       </a>
     </div>
   );

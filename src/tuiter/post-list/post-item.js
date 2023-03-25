@@ -1,6 +1,6 @@
 import React from "react";
 
-const PostItem = ({post}) => {
+const PostItem = ({ post }) => {
   let retuitedBy;
   if (post.retuitedby) {
     retuitedBy = post.retuitedby + " Retuited";
@@ -9,7 +9,11 @@ const PostItem = ({post}) => {
     <li className="list-group-item">
       <div className="row">
         <div className="col-2">
-          {retuitedBy ? <i class="float-end fa-solid fa-retweet"></i> : <></>}
+          {retuitedBy ? (
+            <i className="float-end fa-solid fa-retweet"></i>
+          ) : (
+            <></>
+          )}
           <img
             width={50}
             className="rounded-5"
@@ -20,7 +24,8 @@ const PostItem = ({post}) => {
           <div>{retuitedBy}</div>
           <div>
             <span className="fw-bolder">{post.userName} </span>
-            <i class="fa-solid fa-circle-check"></i> @{post.handle} . {post.time}
+            <i className="fa-solid fa-circle-check"></i> @{post.handle} .{" "}
+            {post.time}
           </div>
           <div>{post.content}</div>
           <img

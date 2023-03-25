@@ -20,7 +20,7 @@ const profile = {
 const profileSlice = createSlice({
   name: "profile",
   initialState: profile,
-  reuducers: {
+  reducers: {
     editProfile(state, action) {
       state.firstName = action.payload.firstName;
       state.lastName = action.payload.lastName;

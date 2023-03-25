@@ -8,7 +8,7 @@ const ProfileComponent = () => {
     <>
       <div className="row mb-3">
         <div className="col-1">
-          <i class="fa-solid fa-arrow-left"></i>
+          <i className="fa-solid fa-arrow-left"></i>
         </div>
         <div className="col-auto">
           <span className="fw-bolder">
@@ -46,21 +46,23 @@ const ProfileComponent = () => {
         {profile.bio}
         <div className="row">
           <div className="col-3">
-            <i class="fa-solid fa-location-dot"></i> {profile.location}
+            <i className="fa-solid fa-location-dot"></i> {profile.location}
           </div>
           <div className="col-3">
-            <i class="fa-solid fa-lightbulb"></i> {profile.dateOfBirth}
+            <i className="fa-solid fa-lightbulb"></i> {profile.dateOfBirth}
           </div>
           <div className="col-auto">
-            <i class="fa-solid fa-calendar-days"></i> {profile.dateJoined}
+            <i className="fa-solid fa-calendar-days"></i> {profile.dateJoined}
           </div>
         </div>
         <div className="row">
           <div className="col-3">
-            <span className="fw-bolder">{profile.followingCount}</span> following
+            <span className="fw-bolder">{profile.followingCount}</span>{" "}
+            following
           </div>
           <div className="col-auto">
-            <span className="fw-bolder">{profile.followersCount}</span> followers
+            <span className="fw-bolder">{profile.followersCount}</span>{" "}
+            followers
           </div>
         </div>
       </div>
