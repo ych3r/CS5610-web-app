@@ -15,12 +15,30 @@ const TuitStats = ({ tuit }) => {
       <div className="col">
         <i
           className="bi bi-heart-fill me-2 text-danger"
-          onClick={() => dispatch(updateTuitThunk({
-            ...tuit,
-            likes: tuit.likes + 1
-          }))}
+          onClick={() =>
+            dispatch(
+              updateTuitThunk({
+                ...tuit,
+                likes: tuit.likes + 1,
+              })
+            )
+          }
         ></i>{" "}
         {tuit.likes}
+      </div>
+      <div className="col">
+        <i
+          class="fa-solid fa-thumbs-down"
+          onClick={() =>
+            dispatch(
+              updateTuitThunk({
+                ...tuit,
+                dislikes: tuit.dislikes + 1,
+              })
+            )
+          }
+        ></i>{" "}
+        {tuit.dislikes}
       </div>
       <div className="col">
         <i className="fa-solid fa-share-nodes"></i>
