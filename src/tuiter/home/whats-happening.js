@@ -9,7 +9,7 @@ const WhatsHappening = () => {
   const tuitClickHandler = () => {
     // console.log(whatsHappening);
     const newTuit = {
-      _id: 1,
+      // _id: 1,
       username: "Yuchen Liu",
       handle: "@_liuyuchen",
       time: "3h",
