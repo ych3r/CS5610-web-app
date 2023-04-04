@@ -7,7 +7,6 @@ const WhatsHappening = () => {
   let [whatsHappening, setWhatsHappening] = useState("");
   const dispatch = useDispatch();
   const tuitClickHandler = () => {
-    // console.log(whatsHappening);
     const newTuit = {
       // _id: 1,
       username: "Yuchen Liu",
